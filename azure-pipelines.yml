@@ -14,7 +14,7 @@ stages:
   jobs:
   - job: Build
     displayName: Build
-    pool: local-agent
+    pool: locall-agent
 
     steps:
     - task: Docker@2
